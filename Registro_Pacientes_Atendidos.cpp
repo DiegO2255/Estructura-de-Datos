@@ -146,7 +146,7 @@ int main() {
         cout << "\n 7. Salir" << endl;
         cout << "Ingrese una Opcion: ";
         cin >> opcion;
-        //cin.ignore();
+        cin.ignore();
 
         switch (opcion) {
             case 1: registrar(lista, siguienteId); break;
